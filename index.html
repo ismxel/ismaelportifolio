@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css do index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header> <!--menu desktop-->
+        <nav class="menu">
+            <div><a href="#inicio"><img src="./img/semfundo.png" class="logo-pn" style="width: 180px; height: 95px;" ></a></div>
+            <ul class="mesa">
+                <li class="item"> <a href="#inicio"> Home</a></li>
+                <li  class="item" > <a href="#sobre">Sobre</a></li>
+                <li  class="item"><a href="#porti">Portfolio</a></li>
+                <li class="item"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--menu desktop fim-->
+    
+    <!--menu mobile inicio-->
+    <header>
+        <div class="hamburger">
+             <span class="line line1"></span>
+             <span class="line line2"></span>
+             <span class="line line3"></span>
+         </div>
+    
+     <div class="nav">
+        <ul class="nav-list">
+         <li class ="itens"> <a href="#inicio">Home</a> </li>
+         <li class ="itens"> <a href="#sobre">Sobre </a> </li>
+         <li class ="itens"> <a href="#port">Trabalho</a> </li>
+         <li class ="itens"> <a href="#contato">Contato </a> </li>
+        </ul>
+     </div>
+    </header>
+    
+    <section class="conteudo1" id="inicio">
+        <div class="content">
+            <h1>Olá sou <span>ismael</span> desenvolvedor web.</h1> <br>
+            
+        </div>
+        <div class="con"><img src="./img/semfundo.png" class="drake" ></div>
+        <div class="btnp">
+           <a href="https://linktr.ee/ismxel.com" target="blank"> <input type="button" value="Contato" class="btn"></a>
+        </div>
+        <div class="social"><a target="blank" href="https://github.com/ismxel"><i class="fab fa-github"></i></a> 
+                <a target="blank" href="https://www.instagram.com/i_smxel/"><i class="fab fa-instagram"></i></a> 
+                <a target="blank" href="https://api.whatsapp.com/send?phone=5586988137087&text=Ol%C3%A1%2Cquero%20saber%20mais..."><i class="fab fa-whatsapp"></i></a></div> 
+    </section>
+    <main class="conteudo2" id="sobre">
+        <div class="content0"data-aos="flip-up">
+            <h1>Sobre</h1> <br>
+            <p>Eu sou Ismael, sou desenvolvedor web e mais precisamente com Front end. Tenho conhecimento em HTML5,CSS3 e JAVASCRIPT, sou um entusiasta nesse mundo da programação, desenvolvo ‘websites’ para negócios físicos e digitais tudo voltados para experiência do usuário e interatividade para o próprio. </p>
+        </div>
+        <div class="img12" data-aos="fade-right">
+            <img src="./img/pexels-luis-gomes-546819.jpg" alt="" class="img12">
+        </div>
+        <section class="skills section" id="skills" data-aos="flip-left" >
+
+            <div class="skills__container bd-grid">     
+                <div>
+                    <h2 class="skills__subtitle">Habilidades</h2>
+                    <p class="skills__text">DesenvolvedorWeb com habilidades em SEO,Trafégo, Responsividade, Marketing Digital, Inglês entre outros.</p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon' ></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+    </main>
+<section class="conteudo2-5" data-aos="zoom-in" id="porti">
+    <div class="content25">
+        <h1>Informações sobre o projeto</h1>
+        <p>
+            O Google Glass é um projeto já existente, porém fizemos uma releitura e remodelagem do site com intuito de tornar o site mais minimalista, simples, focado na melhor experiência ao usuário e harmônico em busca de uma melhoria do “design” original.</p>
+    </div>
+</section>
+        
+    <section class="conteudo3" id="port">
+        <h1 >Portifolio</h1>
+        <p class="te">Clique em veja mais para obter mais informações.</p>
+        <div id="slider" data-aos="fade-up">  
+            <div class="slide" style="background:dodgerBlue;">
+              <img src="./img/1.png">
+            </div>
+            
+            <div class="slide" style="background:rgb(0, 0, 0);">
+               <img src="./img/2.png" >
+            </div>
+           
+            <div class="slide" style="background:rgb(255, 255, 255);">
+              <img src="./img/3.png" >
+            </div>
+            
+          
+            
+            <!--Controlling arrows-->
+            <span class="controls" onclick="prevSlide(-1)" id="left-arrow"><i class="fa fa-arrow-left" aria-hidden="true"></i>
+          </span>
+            <span class="controls" id="right-arrow" onclick="nextSlide(1)"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </span>
+          </div>
+            <div id="dots-con">
+           <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+           </div>
+           <div class="bot">
+           <p>Todos os dados disponiveis em </p>
+         <a href="./port.html">  <input type="button" value="Veja mais" class="content1011"></a>
+        </div><div class="titt"><h1>Diferencial</h1></div>
+        <div class="grid-1">
+
+            
+        
+        <div class="bloco1"><div class="ic2"><i class="fas fa-mobile"></i></div>
+            <h1>Site 100% responsivo</h1>
+        </div>
+        <div class="bloco2"><div class="ic2"><i class="fas fa-hand-holding-usd"></i></div>
+            <h1>SEO em seu site</h1>
+        </div>
+        <div class="bloco3"><div class="ic2"><i class="fas fa-palette"></i></i></div>
+            <h1>Focado em UI e UX</h1>
+        </div>
+    </div>
+    </section>
+
+
+    <section class="conteudo4" id="contato">
+       <div class="content9" data-aos="fade-down">
+           <h1 style="  font-family: 'Noto Sans JP', sans-serif;
+           font-weight: lighter;text-align: center;">Entre em contato aqui</h1>
+       </div>
+       <div class="content10" data-aos="fade-down">
+          <a target="blank" href="https://linktr.ee/ismxel.com">  <input type="button" value="Contato" class="content101"></a>
+           <br>
+          <h1> ou <br> envie nos um email em <br> Ismaelbemtin@outlook.com <h1>
+       </div> 
+    </section>
+   
+    <footer class="footer">
+        <div class="lista-2"> 
+            <ul class="corin">
+                <li class="item-2"> <a href="#sobre"> Sobre</a></li>
+                <li class="item-2"> <a href="#porti"> Portifolio</a></li>
+                <li class="item-2"> <a href="#contato"> Contato </a></li>
+            </ul>
+           <h1 style="float: right;"> <a target="blank" href="https://www.instagram.com/i_smxel/"> Designed by @i_smxel</a></h1>
+           <div class="foto">
+<img src="./img/semfundo.png" alt=""           class="footer-img"></div>
+        </div>
+        <div class="footer-2">
+          <p>&copy; 2021 Ismael B.A</p>
+        
+      <div class="socials">
+        <a target="blank" href="https://api.whatsapp.com/send?phone=5586988137087&text=Ol%C3%A1%2Cquero%20saber%20mais..."> <i class="fab fa-whatsapp"></i></a>
+           <a target="blank" href="https://www.instagram.com/i_smxel/"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/ismxel" target="_blank" > <i class="fab fa-github"></i></a>
+      </div>
+      </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/1edcccd894.js" crossorigin="anonymous"></script>
+    <script src="./java do index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
